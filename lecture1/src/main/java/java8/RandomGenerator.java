@@ -13,4 +13,16 @@ public class RandomGenerator {
     public int generate(int max) {
         return random.nextInt(max);
     }
+
+//    public int[] numbers(RandomGenerator ranGen) {
+//        int randomArray[] = new int[1001];
+//        int countArray[] = new int[10];
+//        for (int i : randomArray) {
+//            randomArray[i] = ranGen.generate(10);
+//        }
+//        for (int r : randomArray)
+//            countArray[r]++;
+//        return countArray;
+//
+//    }
 }
